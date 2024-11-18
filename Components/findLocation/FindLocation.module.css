@@ -1,0 +1,28 @@
+.find-loc{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 3vw; */
+    background-image: url('../../Assets/city-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.find-loc-inner{
+    width: 35vw;
+    height: 60vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    background-color: #C5D3E8;
+}
+
+.curr-loc, .dest-loc{
+    background-color: white !important;
+}

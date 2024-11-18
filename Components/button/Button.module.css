@@ -1,0 +1,16 @@
+.button{
+    width: 25vw;
+    height: 7vh;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    transition: all;
+    transition-duration: 500ms;
+}
+
+.button:hover{
+    scale: 1.05;
+}
