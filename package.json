@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "gh-pages": "^6.2.0",
     "parcel": "^2.13.0",
     "process": "^0.11.10"
   },
@@ -10,12 +11,16 @@
   },
   "name": "frontend-project-expo",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx parcel index.html"
+    "start": "npx parcel index.html",
+    "build": "parcel build index.html --public-url ./",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "postbuild": "copy dist\\index.html dist\\404.html"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "homepage": "https://Navnit-07.github.io/project-exhibition"
 }
