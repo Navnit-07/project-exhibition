@@ -48,3 +48,8 @@
     transition: all;
     transition-duration: 0.51s;
 }
+
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none !important;
+}
